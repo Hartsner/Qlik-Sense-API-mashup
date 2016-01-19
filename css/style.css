@@ -1,0 +1,84 @@
+body{
+    overflow:auto;
+    font-family: 'Montserrat',sans-serif;
+}
+article.qvobject
+{
+    position:absolute;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
+.dropdown-toggle{
+    
+}
+#fieldList, #fieldListS{
+    height: auto;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin-left: 5px;
+}
+
+#fieldList li{
+    margin-left: 5px;
+}
+
+#transactions, #sales, #map{
+    display: none;
+}
+.current{
+    display: block;
+    color: #1E824C !important;
+}
+#total{
+    font-weight: bold;
+    color: #51A388;
+}
+.row{
+    margin-bottom: 20px;
+}
+fill{
+    color: black;
+}
+
+#table{
+    height: 600px;
+    overflow-y: none;
+}
+#addItem{
+    overflow-y: scroll;
+}
+.active{
+    font-weight:bold;
+    color: #26A65B;
+}
+.active2{
+    font-weight:bold;
+    color: #26A65B;
+}
+#food{
+    background-color: #ADB8C4
+}
+#drink{
+    background-color: #565E67
+}
+
+.highcharts-legend{
+    display: none;
+}
+
+.container{
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.btn{
+    min-width: 120px;
+    margin-top: 20px;
+}
+
+
